@@ -1,7 +1,11 @@
+import { Hero } from "./components/Hero";
+import About from "./components/About";
+
 const App = () => {
   return (
-    <main>
-      <h1 className="text-5xl text-violet-300 font-bold">Welcome to Awards</h1>
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
+      <Hero />
+      <About />
     </main>
   );
 };
